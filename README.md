@@ -3,14 +3,8 @@
 
 ## commands
 
-m!play
+m!play - starts radio
 
-starts radio
+m!np - shows now playing
 
-m!np
-
-shows now playing
-
-m!queue
-
-shows the radio queue
+m!queue - shows the radio queue
