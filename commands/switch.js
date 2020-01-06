@@ -10,6 +10,7 @@ const findInMap = (map, val) => {
 module.exports = {
     name: 'switch',
     description: 'switches radio stations',
+    aliases: "station",
     execute(bot, msg, args, serverQueue) {
         const radioLinks = require("../functions/radioLinks");
         if (!msg.member.voice.channel) {
