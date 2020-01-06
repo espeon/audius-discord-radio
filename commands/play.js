@@ -7,6 +7,7 @@ Array.prototype.forEachAsync = async function (callback) {
 module.exports = {
   name: "play",
   description: "Play a song in VC!",
+  aliases: "p",
   async execute(bot, msg, args, serverQueue, youtube) {
     args = JSON.stringify(args);
     const radioLinks = require("../functions/radioLinks");
